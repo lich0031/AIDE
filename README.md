@@ -27,7 +27,7 @@ For CHAOS, it should like this:
 
 ### Train and evaluate
 - Please specify the configuration file.
-- For example, train the model on CHAOS with a batch size of 4 on GPU 0:
+- For example, train the comparison model on CHAOS with a batch size of 4 on GPU 0:
 
   python train_files/trainchaos_comparison_1case.py --model_name fuseunet --batch_size 4 --gpu_order 0 --repetition 1
 
