@@ -18,6 +18,7 @@ This is the official code of AIDE, a deep learning framework for automatic medic
 For CHAOS, it should like this:
 
   $inputs_chaos
+
   |-- All_Sets  
   |--|--Case_No      
   |--|--|--T1DUAL         
@@ -30,7 +31,7 @@ For CHAOS, it should like this:
 
   python train_files/trainchaos_comparison_1case.py --model_name fuseunet --batch_size 4 --gpu_order 0 --repetition 1
 
-- Model evluation on the CHAOS dataset can utilize the file train_files/evalchaos_comparison_1cases.py by modifying the image and optimized model path and information accordingly.
+- Model evaluation on the CHAOS dataset can utilize the file train_files/evalchaos_comparison_1cases.py by modifying the image and optimized model path and information accordingly.
 
 ## Example results
-Example segmentation results on the CHAOS dataset can be find in train_files/examplesegmentationresults. Additional optimized models and segmentation results for the task can be downloaded [here](https://onedrive.live.com/?id=D6A80DBCD21AD447%216335&cid=D6A80DBCD21AD447).
+Example segmentation results on the CHAOS dataset can be found in train_files/examplesegmentationresults. Additional optimized models and segmentation results for the task can be downloaded [here](https://onedrive.live.com/?id=D6A80DBCD21AD447%216335&cid=D6A80DBCD21AD447).
