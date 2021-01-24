@@ -33,5 +33,9 @@ For CHAOS, it should like this:
 
 - Model evaluation on the CHAOS dataset can utilize the file train_files/evalchaos_comparison_1cases.py by modifying the image and optimized model path and information accordingly.
 
+### Hardware and time complexities
+- To train the model, computers with GPUs should be utilized. The optimization time of the model depends various factors, including the dataset, the batch size, the epoch number, and the hardware. For our implementation of the CHAOS data, it took the comparison model (984 training samples) around 300s to run one epoch, and it took our framework around 420s. Our framework is a little bit more complex as two models are trained in parallel.
+- The models can be evaluated on computers with or without GPU. Evaluation is very fast, and it takes only several seconds to evaluate one 3D image.
+
 ## Example results
 Example segmentation results on the CHAOS dataset can be found in train_files/examplesegmentationresults. Additional optimized models and segmentation results for the task can be downloaded [here](https://onedrive.live.com/?id=D6A80DBCD21AD447%216335&cid=D6A80DBCD21AD447).
