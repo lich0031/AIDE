@@ -14,12 +14,19 @@ This is the official code of AIDE, a deep learning framework for automatic medic
 - If you want to run the code, you need to download the [CHAOS](https://chaos.grand-challenge.org/), [Prostate dataset1](https://wiki.cancerimagingarchive.net/display/Public/NCI-ISBI+2013+Challenge+-+Automated+Segmentation+of+Prostate+Structures), [Prostate dataset2](https://promise12.grand-challenge.org/Home/), and [QUBIQ](https://qubiq.grand-challenge.org/) datasets for respective tasks.
 
 - Data should be stored in the correct directory tree.
+
 For CHAOS, it should like this:
+
   inputs_chaos
+  
   |-- All_Sets
+  
       |--Case_No
+      
          |--T1DUAL
+         
             |--DICOM_anon
+            
             |--Ground
 
 ### Train and evaluate
