@@ -17,8 +17,7 @@ This is the official code of AIDE, a deep learning framework for automatic medic
 
 For CHAOS, it should like this:
 
-  inputs_chaos
-  
+  $inputs_chaos
   |-- All_Sets  
       |--Case_No      
          |--T1DUAL         
