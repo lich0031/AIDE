@@ -19,14 +19,10 @@ For CHAOS, it should like this:
 
   inputs_chaos
   
-  |-- All_Sets
-  
-      |--Case_No
-      
-         |--T1DUAL
-         
-            |--DICOM_anon
-            
+  |-- All_Sets  
+      |--Case_No      
+         |--T1DUAL         
+            |--DICOM_anon            
             |--Ground
 
 ### Train and evaluate
