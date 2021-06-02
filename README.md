@@ -35,6 +35,7 @@ For CHAOS, it should like this:
 
 ### Hardware and time complexities
 - To train the model, computers with GPUs should be utilized. The optimization time of the model depends on various factors, including the dataset, the batch size, the epoch number, and the hardware. For our implementation of the CHAOS data, it took the comparison model (984 training samples) around 300s to run one epoch, and it took our framework around 420s. Our framework is a little bit more complex as two models are trained in parallel.
+- Installation of the relevant dependencies (e.g. PyTorch) is very fast, taking less than half an hour.
 - The models can be evaluated on computers with or without GPU. Evaluation is very fast, and it takes only several seconds to evaluate one 3D image.
 
 ## Example results
